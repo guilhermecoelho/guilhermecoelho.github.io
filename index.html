@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson | .NET Backend Developer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 20px;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #f6f8fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-right: 20px;
+        }
+        
+        .profile-info h1 {
+            margin: 0 0 5px 0;
+            font-size: 26px;
+        }
+        
+        .profile-info p {
+            margin: 0 0 10px 0;
+            color: #586069;
+        }
+        
+        .status-badge {
+            background-color: #28a745;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            display: inline-block;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 8px;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .tech-item {
+            background-color: #f1f8ff;
+            color: #0366d6;
+            border-radius: 4px;
+            padding: 5px 10px;
+            margin: 0 8px 8px 0;
+            font-size: 14px;
+        }
+        
+        .project-card {
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .project-card h3 {
+            margin-top: 0;
+        }
+        
+        .github-link {
+            display: inline-block;
+            background-color: #f6f8fa;
+            color: #24292e;
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: 1px solid rgba(27, 31, 35, 0.15);
+            font-size: 14px;
+        }
+        
+        .github-link:hover {
+            background-color: #f3f4f6;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-box {
+            background-color: #f6f8fa;
+            border-radius: 6px;
+            padding: 16px;
+            text-align: center;
+        }
+        
+        .stat-box h3 {
+            margin: 0;
+            font-size: 28px;
+        }
+        
+        .stat-box p {
+            margin: 5px 0 0 0;
+            color: #586069;
+            font-size: 14px;
+        }
+        
+        .contact-methods {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .contact-btn {
+            background-color: #f6f8fa;
+            color: #24292e;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            border: 1px solid rgba(27, 31, 35, 0.15);
+            margin: 0 10px 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-btn:hover {
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-pic">AJ</div>
+        <div class="profile-info">
+            <h1>Alex Johnson</h1>
+            <p>Senior Backend Developer specializing in .NET | Microsoft Certified Azure Developer</p>
+            <p>San Francisco, CA</p>
+            <span class="status-badge">Available for freelance</span>
+        </div>
+    </header>
+    
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a backend developer with 8+ years of professional experience specializing in building high-performance, scalable web applications and microservices using .NET technologies. I'm passionate about clean code, performance optimization, and cloud-native architecture.</p>
+        <p>When I'm not coding, I contribute to open-source projects and write technical articles on modern backend development practices.</p>
+    </section>
+    
+    <section>
+        <h2>Tech Stack</h2>
+        <div class="tech-stack">
+            <span class="tech-item">C#</span>
+            <span class="tech-item">.NET Core</span>
+            <span class="tech-item">ASP.NET</span>
+            <span class="tech-item">SQL Server</span>
+            <span class="tech-item">Entity Framework</span>
+            <span class="tech-item">Azure</span>
+            <span class="tech-item">RESTful APIs</span>
+            <span class="tech-item">gRPC</span>
+            <span class="tech-item">Docker</span>
+            <span class="tech-item">Kubernetes</span>
+            <span class="tech-item">Redis</span>
+            <span class="tech-item">RabbitMQ</span>
+            <span class="tech-item">CI/CD</span>
+            <span class="tech-item">Microservices</span>
+            <span class="tech-item">DDD</span>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Stats</h2>
+        <div class="stats-grid">
+            <div class="stat-box">
+                <h3>8+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-box">
+                <h3>24</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-box">
+                <h3>12</h3>
+                <p>Open Source Contributions</p>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Featured Projects</h2>
+        <div class="project-card">
+            <h3>Enterprise Microservices Framework</h3>
+            <p>A production-ready microservices framework built with .NET Core that includes service discovery, circuit breaking, distributed tracing, and message queueing. Used by 5 enterprise clients to handle 10M+ daily requests.</p>
+            <a href="#" class="github-link">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <h3>Distributed Caching System</h3>
+            <p>A high-performance distributed caching solution with Redis backend that supports automatic failover, data sharding, and custom serialization. Reduced database load by 60% for a major e-commerce platform.</p>
+            <a href="#" class="github-link">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <h3>Azure DevOps Pipeline Templates</h3>
+            <p>A collection of reusable Azure DevOps pipeline templates for .NET projects including build, test, security scanning, and deployment to various environments. Adopted by 30+ development teams.</p>
+            <a href="#" class="github-link">View on GitHub</a>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Working Experience</h2>
+        <div class="project-card">
+            <h3>Senior Backend Developer</h3>
+            <p>Acme Technology Solutions, 2020 - Present</p>
+            <p>Lead the backend development team for a cloud-native fintech platform serving 2M+ users. Designed and implemented microservices architecture using .NET Core, Azure Kubernetes Service, and Event-Driven patterns.</p>
+        </div>
+        <div class="project-card">
+            <h3>Software Engineer</h3>
+            <p>Global Systems Inc., 2017 - 2020</p>
+            <p>Developed and maintained enterprise-level applications for healthcare clients using .NET Framework/Core, SQL Server, and Azure cloud services.</p>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Contact</h2>
+        <div class="contact-methods">
+            <a href="mailto:alex@example.com" class="contact-btn">Email</a>
+            <a href="https://github.com/" class="contact-btn">GitHub</a>
+            <a href="https://linkedin.com/" class="contact-btn">LinkedIn</a>
+            <a href="https://twitter.com/" class="contact-btn">Twitter</a>
+        </div>
+    </section>
+</body>
+</html>
